@@ -57,7 +57,7 @@ export default function App() {
   const [activeTab, setActiveTab ] = useState<'home' | 'gastronomy' | 'history' | 'dialect'>('home');
   const [chatInput, setChatInput] = useState('');
   const [messages, setMessages] = useState<{ role: 'user' | 'ai', text: string }[]>([
-    { role: 'ai', text: 'Hoş geldin be ya! Ben Muğla Kültür Elçisi. N\'edip duruñ bakem? Merak ettiğin ne varsa sor gari!' }
+    { role: 'ai', text: 'Hoş geldin gari! Ben Muğla Kültür Elçisi. N\'edip duruñ bakem? Merak ettiğin ne varsa sor gari!' }
   ]);
   const [isTyping, setIsTyping] = useState(false);
 
